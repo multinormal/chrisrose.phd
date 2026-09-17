@@ -26,11 +26,9 @@ Theme Name: Joana Mertz
 }
 html {font-family: 'Inter', sans-serif;background-color:#FFF}
 body {font-family: 'Inter', sans-serif;overflow-x: hidden; background-color:#FFF; font-weight:400;font-style: normal; color: #000; font-size: var(--font_14)}
-a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
-a{color: #000}
+a,a:hover,a:focus,i,input,button,input:focus,.transition {outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+a{color: #000;text-decoration: underline}
 iframe {border: 0;outline: none;}
-::-moz-selection {background: var(--red);text-shadow: none;color:var(--white)}
-::selection {background:var(--red);text-shadow: none;color:var(--white)}
 img {max-width: 100%;border: none;outline: none;height: auto;}
 input,textarea {border-radius: 0;resize: none;}
 ul {padding: 0;margin: 0;}
@@ -47,7 +45,7 @@ svg,img { max-width: 100%; height: auto; }
 ----------------------------------------------------------------*/
 .ds-header{ padding-top:5.875rem; padding-bottom: 9.125rem; position: relative;  }
 .ds-logo{ text-align: center; }
-.ds-logo a{display: inline-block; color: #000; font-size:0.875rem; text-transform: uppercase; letter-spacing:13px; font-weight: 600; border-bottom: 1px solid #C8D7DF; padding-bottom: 14px }
+.ds-logo a{display: inline-block; color: #000; font-size:0.875rem; text-transform: uppercase; letter-spacing:13px; font-weight: 600; border-bottom: 1px solid #C8D7DF; padding-bottom: 14px; text-decoration: none }
 .ds-closebutton{ position: absolute; left:0; right: 0; margin: 0 auto; margin-top:2.75rem;  border-radius: 100%; border: 1px solid #687278; width: 64px;height: 64px; line-height: 64px; color: #687278; font-size: 1.875rem }
 .ds-closebutton:hover{ background-color: #687278; color: #FFF  }
 .ds-pge-wrap{ margin-bottom:100px }
@@ -63,6 +61,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-heading{ font-weight: 600; font-size: 3rem; line-height: 3.6875rem; margin-bottom:42px }
 .ds-info-sectio-wrp{ padding-left:2.5rem  }
 .ds-info-sectio p,.ds-project-details p{font-size: 1.125rem; line-height: 2.25rem; margin-bottom: 20px}
+.ds-cv-list{ list-style: disc; padding-left: 1.25rem; font-size: 1.125rem; line-height: 2.25rem; margin-bottom: 20px }
 
 .ds-info-list-section{ margin-top:5.625rem  }
 .ds-info-list-section h3{font-size: 1.125rem;font-weight: 600; margin-bottom: 25px}
@@ -70,6 +69,9 @@ svg,img { max-width: 100%; height: auto; }
 .ds-info-list-section ul li{ width: 50%;font-size: 1.125rem; margin-bottom: 10px }
 .ds-info-list-section ul li a{ text-decoration: underline; }
 .ds-info-list-section ul li a:hover{ text-decoration: none; color: #000 }
+
+.ds-video-wrap{ max-width: 100% }
+.ds-video-wrap iframe{ width: 100%; aspect-ratio: 560 / 315; height: auto; display: block }
 
 .ds-pr-info{ display: block;font-size: 1.125rem; font-weight: 600; margin-bottom: 40px }
 .ds-main-image{ margin-bottom: 10.0625rem }
